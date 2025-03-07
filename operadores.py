@@ -12,12 +12,31 @@ se resuelven de izquierda a derecha
 
 NOTA2: Si hay parentesis dentro del parentesis 
 se resuelve primero el parentesis interno.
+
 '''
 
-a = 3
-b = 2
-c = 1
+a = 2
+b = 3
+c = 7
 x = 5
-y = ((2 * a + c) / 7) * (a + (4 * a) / c)
+h = 1
+y = c / ( x + 2 ) < c * a - c + 1 - b * 2
 
 print (y)
+
+'''
+OPERACIONES RELACIONALES:
+operadores arigmetimeticos las operaciones arigmeticas resultan en un valor numerico 
+las operacones relacionales resultan en un valor booleano :
+(true, false, si o no)
+operadores relacinales:
+>, <, >=, <=,!=, ==)
+jerarquia de operaciones 
+1.                 (  )
+2.                  **
+3.               / , * , %
+4.                 + , -
+5.          >, <, >=, <=, !=, ==
+6.                   =
+
+'''
