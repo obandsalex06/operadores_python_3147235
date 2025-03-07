@@ -8,11 +8,12 @@ operadores relacionales o logicos
 
 #Ejemplo de condicional
 
- 
-x = 5
-y = 10
-z = 5
+a = 6
+b = 3 
+c = 7
+d = 4
+e = 5
 
-resultado = (x == z + (8 / z)) and not ((y + 3) * (4 / (z + 1))) == z
+resultado = not (a + b > c / d) or e * 2 != d + c and not (a < b)
 
 print (resultado)
